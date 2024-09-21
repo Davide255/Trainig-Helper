@@ -214,8 +214,8 @@ function cancel_activity() {
     document.getElementById("main-app").style.display = "none";
 }
 
-let long_bip = new Audio("long_bip.mp3");
-let short_bip = new Audio("short_bip.mp3");
+let long_bip = new Audio("https://github.com/Davide255/Trainig-Helper/raw/refs/heads/main/long_bip.mp3");
+let short_bip = new Audio("https://github.com/Davide255/Trainig-Helper/raw/refs/heads/main/short_bip.mp3");
 
 var WORKOUT = null;
 var CURRENT = 0;
