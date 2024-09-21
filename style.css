@@ -1,0 +1,200 @@
+body {
+    padding: 25px;
+    background: fixed;
+    background-image: linear-gradient(to bottom, rgb(102, 0, 255), rgb(8, 0, 255));
+    color: white;
+    font-family: "Alexandria";
+    margin: 5px;
+    padding: auto;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.training-card {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgb(135, 55, 255), rgb(73, 67, 255));
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#add-button {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    left: 80%;
+    bottom: 7%;
+    background-image: linear-gradient(to bottom, rgb(135, 55, 255), rgb(73, 67, 255));
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    border: none;
+}
+
+#new-creation-dialog {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-content: center;
+}
+
+.new-creation-box {
+    background-image: linear-gradient(to bottom, rgb(255, 0, 195), rgb(0, 81, 255));
+    border-radius: 30px;
+    width: 95%;
+    height: 95%;
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    padding: auto;
+    overflow: hidden;
+}
+
+.new-creation-box-content {
+    overflow: auto;
+    background-color: black;
+    height: 88%;
+}
+
+.action {
+    margin: 20px;
+    align-content: center;
+}
+
+.action img {
+    background-color: white;
+    width: 60px;
+    height: 60px;;
+    filter: invert();
+}
+
+.inverted-img {
+    background-color: white;
+    width: 60px;
+    height: 60px;;
+    filter: invert();
+}
+
+.action img, .action-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.action-content {
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.action-content h1 {
+    margin: 1px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-size: large;
+}
+
+.action-content .minus-button, .action-content .plus-button {
+    background-color: rgb(120, 215, 247);
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size:larger;
+}
+
+.action-content .input-area {
+    border: none;
+    background-color: transparent;
+    width: 100px;
+    border-bottom: 3px solid rgb(120, 215, 247);
+    color: white;
+    font-size: medium;
+    text-align: center;
+    font-family: "Alexandria";
+    align-content: baseline;
+    height: fit-content;
+    margin: 10px;
+    resize: none;
+}
+
+.spacer {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.action-content-end {
+    margin: 15px;
+    margin-top: 50px;
+    justify-content: right;
+    vertical-align: bottom;
+}
+
+#action-content-save, #action-content-cancel, #action-content-go {
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: white;
+    background-color: transparent;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-family: "Alexandria";
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+#action-content-go {
+    background-color: rgb(0, 183, 255);
+    border: none;
+}
+
+#main-app {
+    display: none;
+}
+
+#main-app-event-area {
+    overflow-y: auto;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    height: 40%;
+}
+
+#main-app-event-area h1 {
+    border-bottom: 2px solid white;
+    font-size: large;
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 7px;
+}
+
+.main-app-button:hover {
+    border: none;
+}
